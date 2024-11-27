@@ -1,14 +1,15 @@
+/* Estilo geral */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #bfbfbf; /* Cinza médio-escuro */
-    color: #333; /* Cor do texto */
+    background-color: #f3e5f5; /* Roxo muito claro no fundo */
+    color: #4a148c; /* Roxo escuro para o texto */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #6a1b9a; /* Roxo médio para o cabeçalho */
+    color: #ffffff; /* Texto branco no cabeçalho */
     padding: 10px 0;
 }
 
@@ -25,8 +26,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff; /* Links brancos no menu */
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
@@ -40,10 +42,9 @@ main {
 
 footer {
     text-align: center;
-    background-color: #333;
-    color: #fff;
+    background-color: #4a148c; /* Roxo escuro para o rodapé */
+    color: #ffffff;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
-    width: 100%;
-}
+    width:
