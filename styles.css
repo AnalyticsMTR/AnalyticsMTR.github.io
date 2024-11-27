@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d9d9d9; /* Cinza mais escuro */
+    background-color: #bfbfbf; /* Cinza médio-escuro */
     color: #333; /* Cor do texto */
 }
 
@@ -31,3 +31,19 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
